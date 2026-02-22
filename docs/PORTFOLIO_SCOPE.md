@@ -1,28 +1,28 @@
 ﻿# APW Portfolio Scope (Sanitize Policy)
 
-Bu dosya, portfolyo repoya neyin dahil edilip neyin edilmedigini aciklar.
+Bu dosya, portfolyo repoya neyin dahil edilip neyin edilmediğini açıklar.
 
 ## Dahil Edilenler
-- Frontend kaynak kodu (`frontend/src`) ve arayuz yapisi
-- UI/UX kararlarini gosteren component yapisi
-- Dashboard ve panel akislari
-- Genel mimari ve moduler tasarim dokumantasyonu
+- Frontend kaynak kodu (`frontend/src`) ve arayüz yapısı
+- UI/UX kararlarını gösteren component yapısı
+- Dashboard ve panel akışları
+- Genel mimari ve modüler tasarım dokümantasyonu
 
 ## Dahil Edilmeyenler
 - AI prompt metinleri, prompt zincirleri, role-based prompt stratejileri
-- Uretim/teyit servislerinin kritik backend implementasyonlari
-- Ozel scoring/ranking/heuristic mekanizmalari
-- Production operasyon scriptleri ve ortam-ozel deployment konfigleri
-- Gizli anahtarlar, environment degerleri, hassas endpoint/config bilgileri
+- Üretim/teyit servislerinin kritik backend implementasyonları
+- Özel scoring/ranking/heuristic mekanizmaları
+- Production operasyon scriptleri ve ortam-özel deployment konfigleri
+- Gizli anahtarlar, environment değerleri, hassas endpoint/config bilgileri
 
 ## Neden?
-- Fikri mulkiyet korumasi
-- Guvenlik risklerinin azaltimi
-- Public repo ile private urun omurgasinin ayrimi
+- Fikri mülkiyet koruması
+- Güvenlik risklerinin azaltımı
+- Public repo ile private ürün omurgasının ayrımı
 
 ## Public Repo Prensibi
 Bu repo:
-- "ne yaptigimizi" gosterir
-- "bunu nasil ticari avantaja cevirdigimizi" tum detayiyla acmaz
+- "ne yaptığımızı" gösterir
+- "bunu nasıl ticari avantaja çevirdiğimizi" tüm detayıyla açmaz
 
-Yani APW'nin urun kalitesi, arayuz mimarisi ve engineering disiplini gorunur; kritik sos korunur.
+Yani APW'nin ürün kalitesi, arayüz mimarisi ve engineering disiplini görünür; kritik sos korunur.

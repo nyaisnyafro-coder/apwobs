@@ -1,23 +1,23 @@
 ﻿# APW Demo Setup
 
-Bu repo portfolyo/sunum odakli oldugu icin production backend'i birebir icermez.
-Yine de frontend'i lokal olarak acip UI akislarini inceleyebilirsiniz.
+Bu repo portfolyo/sunum odaklı olduğu için production backend'i birebir içermez.
+Yine de frontend'i lokal olarak açıp UI akışlarını inceleyebilirsiniz.
 
 ## Gereksinimler
 - Node.js 18+
 - npm 9+
 
-## Calistirma
+## Çalıştırma
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
 
-Varsayilan olarak uygulama backend endpointlerine istek atar.
-Gercek backend bu repoda olmadigindan asagidaki yollar izlenebilir:
+Varsayılan olarak uygulama backend endpointlerine istek atar.
+Gerçek backend bu repoda olmadığından aşağıdaki yollar izlenebilir:
 
-## Demo Modu Onerisi
+## Demo Modu Önerisi
 1. Browser devtools network override/mock
 2. Veya yerel bir mock API server
 3. Veya sadece statik UI/komponent inceleme
@@ -29,4 +29,4 @@ npm run build
 ```
 
 ## Not
-Bu repo "calisan urun paketi" degil, "teknik portfolio vitrini"dir.
+Bu repo "çalışan ürün paketi" değil, "teknik portfolio vitrini"dir.

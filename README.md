@@ -1,52 +1,52 @@
 ﻿# APW (Apertus Workspace) - Portfolio Snapshot
 
-Bu repo, `APW` (Apertus Workspace) projesinin **portfolyo odakli**, sanitize edilmis bir sunumudur.
+Bu repo, `APW` (Apertus Workspace) projesinin **portfolyo odaklı**, sanitize edilmiş bir sunumudur.
 
-Amac:
-- urunun arayuz/mimari kalitesini gostermek
-- teknik kapsam ve engineering yaklasimini anlatmak
-- ticari olarak hassas olan kodlari/promptlari paylasmadan proje seviyesini sergilemek
+Amaç:
+- ürünün arayüz/mimari kalitesini göstermek
+- teknik kapsam ve engineering yaklaşımını anlatmak
+- ticari olarak hassas olan kodları/promptları paylaşmadan proje seviyesini sergilemek
 
-Bu repo, canli ortamda calisan urunun birebir kopyasi degildir.
+Bu repo, canlı ortamda çalışan ürünün birebir kopyası değildir.
 
 ## Neler Var?
 - `frontend/`
-  React + Vite tabanli APW paneli (Dashboard, Istihbarat, Icerikler, Ayarlar vb.)
+  React + Vite tabanlı APW paneli (Dashboard, İstihbarat, İçerikler, Ayarlar vb.)
 - `docs/ARCHITECTURE.md`
-  sistem tasarim ozeti, veri akisi ve katmanlar
+  sistem tasarım özeti, veri akışı ve katmanlar
 - `docs/PORTFOLIO_SCOPE.md`
-  bu repoda bilerek paylasilmayan kritik alanlar
+  bu repoda bilerek paylaşılmayan kritik alanlar
 - `docs/SETUP_DEMO.md`
-  lokal demo/inceleme adimlari
+  lokal demo/inceleme adımları
 
 ## Neler Bilerek Yok?
-Guvenlik ve fikri mulkiyet nedeniyle asagidaki alanlar bu repoda bilincli olarak yer almaz:
-- ozel prompt stratejileri ve prompt zincirleri
-- AI uretim/teyit motorlarinin kritik servis implementasyonlari
-- gizli is kurallari ve agirliklandirma mekanizmalari
-- API anahtarlari, secret'lar, production env dosyalari
-- operasyonel scriptler ve ortam-ozel dagitim detaylari
+Güvenlik ve fikri mülkiyet nedeniyle aşağıdaki alanlar bu repoda bilinçli olarak yer almaz:
+- özel prompt stratejileri ve prompt zincirleri
+- AI üretim/teyit motorlarının kritik servis implementasyonları
+- gizli iş kuralları ve ağırlıklandırma mekanizmaları
+- API anahtarları, secret'lar, production env dosyaları
+- operasyonel scriptler ve ortam-özel dağıtım detayları
 
 Detay: `docs/PORTFOLIO_SCOPE.md`
 
-## APW Kisa Ozeti
-APW, haber/icerik operasyonu icin tasarlanmis bir "workspace"tir.
+## APW Kısa Özeti
+APW, haber/içerik operasyonu için tasarlanmış bir "workspace"tir.
 
-Ana moduller:
-- Dashboard: veri yogunlugu, teyit metrikleri, gelismeler paneli
-- Istihbarat: haber tarama, durum takibi, tekrar teyit akislari
-- Icerikler: AI destekli icerik uretimi ve editor akisina uygun kayitlar
-- Ayarlar: marka kimligi, ton, dil ve paylasim tercihleri
+Ana modüller:
+- Dashboard: veri yoğunluğu, teyit metrikleri, gelişmeler paneli
+- İstihbarat: haber tarama, durum takibi, tekrar teyit akışları
+- İçerikler: AI destekli içerik üretimi ve editör akışına uygun kayıtlar
+- Ayarlar: marka kimliği, ton, dil ve paylaşım tercihleri
 
-## Teknoloji Yigini
+## Teknoloji Yığını
 - Frontend: React, Vite, TailwindCSS
 - UI: Lucide Icons, Recharts
-- Backend (private implementation): FastAPI + SQLAlchemy + SQLite/PostgreSQL uyumlu tasarim
+- Backend (private implementation): FastAPI + SQLAlchemy + SQLite/PostgreSQL uyumlu tasarım
 - Deployment (private implementation): systemd + reverse proxy (Nginx)
 
-## Guvenlik Notu
-- Bu repoda `.env`, token, API key, sifre ve benzeri gizli bilgiler bulunmaz.
-- Yine de lokalde calistirirken kendi guvenli env yonetimini kullanin.
+## Güvenlik Notu
+- Bu repoda `.env`, token, API key, şifre ve benzeri gizli bilgiler bulunmaz.
+- Yine de lokalde çalıştırırken kendi güvenli env yönetimini kullanın.
 
 ## Lisans
-Bu repo portfolyo sunumu amaclidir. Kodun yeniden kullanim/uretimi konusunda izin modeli ayrica belirlenmelidir.
+Bu repo portfolyo sunumu amaçlıdır. Kodun yeniden kullanım/üretimi konusunda izin modeli ayrıca belirlenmelidir.
