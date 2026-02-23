@@ -46,7 +46,8 @@ Ana modüller:
 
 ## Güvenlik Notu
 - Bu repoda `.env`, token, API key, şifre ve benzeri gizli bilgiler bulunmaz.
-- Yine de lokalde çalıştırırken kendi güvenli env yönetimini kullanın.
 
 ## Lisans
 Bu repo portfolyo sunumu amaçlıdır. Kodun yeniden kullanım/üretimi konusunda izin modeli ayrıca belirlenmelidir.
+
+-Batuhan
